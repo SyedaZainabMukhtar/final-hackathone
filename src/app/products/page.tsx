@@ -1,4 +1,3 @@
-import Data from "../../../components/Data/Data";
 import Footer from "../../../components/Footer/Footer";
 import Navbar from "../../../components/Navbar/Navbar";
 import styles from "./products.module.css";
@@ -17,7 +16,7 @@ const page = () => {
         </div>
       </div>
       <div className={styles.main_container}>
-        <Data/>
+       empty
       </div>
       <Footer />
     </div>
