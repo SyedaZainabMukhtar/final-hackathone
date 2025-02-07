@@ -25,15 +25,15 @@ const Navbar = () => {
           <div className={styles.upper_portion_div_one}>
             <span className={styles.name_and_icon}>
               <IoMailOutline className="text-lg" />
-              <Link href="mailto:muhammadf4060@gmail.com">
-                muhammadf4060@gmail.com
+              <Link href="/">
+                xyz@123.com
               </Link>
             </span>
             <span className={styles.name_and_icon}>
               {/* <TbPhoneCall className="text-lg" /> (+92340)6044359 */}
               <TbPhoneCall className="text-lg" />
-              <Link href='https://wa.me/+923406044359'>
-              (+92340)6044359
+              <Link href='/'>
+              (+92123)4567890
               </Link>
             </span>
           </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <option value="IRA">IRA</option>
               </select>
             </span>
-            <Link href={"/dashboard"}>
+            <Link href={"/login"}>
               <span className={styles.name_and_icon}>
                  <IoIosContact className="text-2xl" />
               </span>
@@ -87,7 +87,7 @@ const Navbar = () => {
             }`}
           >
             <ul className={styles.ul_div}>
-              <Link href="/home">
+              <Link href="/">
                 <li className={styles.li}>Home</li>
               </Link>
               <Link href="/about">

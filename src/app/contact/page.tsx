@@ -42,15 +42,14 @@ const page = () => {
                 <h2 className="text-2xl font-bold mb-4">Contact Way</h2>
                 <ul className="space-y-4 text-gray-600">
                   <li>
-                    <span className="font-bold">Phone:</span> +92340-60440-39
+                    <span className="font-bold">Phone:</span> +92123-45678-90
                   </li>
                   <li>
                     <span className="font-bold">Email:</span>{" "}
-                    muhammadf4060@gmail.com
+                   xyz@123.com
                   </li>
                   <li>
-                    <span className="font-bold">Address:</span> C/o R-484 Rafi
-                    Bunglows Malir-15 karachi
+                    <span className="font-bold">Address:</span> fdfdkafjkdfkdjfkajdfkdsjfkjsdaklfjdksfj
                   </li>
                   <li>
                     <span className="font-bold">Support:</span> Free standard
